@@ -1,0 +1,21 @@
+*{
+    padding:10px;
+
+}
+
+.cardcont{
+    padding-top:5%;
+    padding-bottom:10%;
+    padding-left:10%;
+    padding-right:10%;
+    display: grid;
+    grid-template-columns: 500px 500px 500px; /* Automatically fit cards */
+    gap: 20px;
+}
+
+.con{
+    text-align: center;
+    padding:20px;
+}
+
+

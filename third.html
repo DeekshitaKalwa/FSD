@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Testimonials & Contact - Online Course</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Optional custom CSS -->
+  <style>
+    .testimonial-card {
+      margin-top: 30px;
+    }
+
+    .team-member {
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    .contact-form-section {
+      background-color: #f8f9fa;
+      padding: 60px 0;
+    }
+
+    .footer {
+      background-color: #343a40;
+      color: white;
+      padding: 40px 0;
+    }
+
+    .footer a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">OnlineCourses</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Testimonials Section -->
+  <section class="container my-5">
+    <h2 class="text-center mb-4">What Our Students Say</h2>
+    <div class="row">
+      <!-- Testimonial 1 -->
+      <div class="col-md-4">
+        <div class="testimonial-card card">
+          <div class="card-body text-center">
+            <p class="card-text">"The best course I've ever taken! The instructors are incredibly knowledgeable, and the hands-on projects helped me build a solid portfolio!"</p>
+            <h5 class="card-title">John Doe</h5>
+            <p class="card-subtitle text-muted">Web Developer</p>
+          </div>
+        </div>
+      </div>
+      <!-- Testimonial 2 -->
+      <div class="col-md-4">
+        <div class="testimonial-card card">
+          <div class="card-body text-center">
+            <p class="card-text">"I learned so much in just a few weeks! The curriculum is well-structured, and I felt fully supported throughout the course."</p>
+            <h5 class="card-title">Jane Smith</h5>
+            <p class="card-subtitle text-muted">Software Engineer</p>
+          </div>
+        </div>
+      </div>
+      <!-- Testimonial 3 -->
+      <div class="col-md-4">
+        <div class="testimonial-card card">
+          <div class="card-body text-center">
+            <p class="card-text">"Thanks to this course, I was able to transition to a new career as a frontend developer. The best investment I ever made!"</p>
+            <h5 class="card-title">Alice Johnson</h5>
+            <p class="card-subtitle text-muted">Frontend Developer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section class="team-section container my-5">
+    <h2 class="text-center mb-4">Meet Our Expert Instructors</h2>
+    <div class="row">
+      <!-- Instructor 1 -->
+      <div class="col-md-4 team-member">
+        <img src="img9.jpg" class="rounded-circle mb-3" alt="Instructor 1"  style="width:10rem;">
+        <h4>Sarah Lee</h4>
+        <p>Senior Web Developer & Instructor</p>
+        <p>With over 10 years of experience in web development, Sarah has worked with leading tech companies and now shares her expertise with students.</p>
+      </div>
+      <!-- Instructor 2 -->
+      <div class="col-md-4 team-member">
+        <img src="img10.jpg" class="rounded-circle mb-3" alt="Instructor 2"  style="width:10rem;">
+        <h4>Michael Brown</h4>
+        <p>Frontend Development Expert</p>
+        <p>Michael specializes in frontend frameworks like React, Vue, and Angular. His passion is teaching students how to create modern and responsive websites.</p>
+      </div>
+      <!-- Instructor 3 -->
+      <div class="col-md-4 team-member">
+        <img src="img11.jpg" class="rounded-circle mb-3" alt="Instructor 3"  style="width:10rem;">
+        <h4>Emily Davis</h4>
+        <p>Backend Development Specialist</p>
+        <p>Emily is an expert in Node.js, Express, and MongoDB. She enjoys guiding students through the backend development process and building scalable applications.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section class="contact-form-section">
+    <div class="container">
+      <h2 class="text-center mb-4">Get In Touch</h2>
+      <p class="text-center mb-5">Have any questions? Feel free to reach out to us. We're here to help!</p>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Your Email</label>
+              <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Your Message</label>
+              <textarea class="form-control" id="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-secondary w-100">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer text-center">
+    <div class="container">
+      <p>&copy; 2024 OnlineCourses. All rights reserved.</p>
+      <p>
+        <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a>
+      </p>
+      <p>Follow Us: 
+        <a href="#">Facebook</a> | 
+        <a href="#">Twitter</a> | 
+        <a href="#">Instagram</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
